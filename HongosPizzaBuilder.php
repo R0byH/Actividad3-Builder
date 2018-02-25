@@ -1,5 +1,7 @@
 <?php	
 	
+	//include('AbstractBuilder.php');
+	
 	class hongosPizzaBuilder extends PizzaBuilder {
 
 		public function buildMasa(){ 
@@ -12,4 +14,3 @@
 			$this->pizza->setRelleno("jamón+hongos+tocino"); 
 		}
 	} 
-?>

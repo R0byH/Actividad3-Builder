@@ -1,6 +1,9 @@
 <?php
 
+	//include('Producto.php');
+
 	abstract class PizzaBuilder {
+		
 		var $pizza = null;
 
 		public function getPizza() { 
@@ -19,4 +22,3 @@
 
 	}
 
-?>

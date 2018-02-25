@@ -1,4 +1,7 @@
 <?php
+
+	//require_once('AbstractBuilder.php');
+
 	class PicantePizzaBuilder extends PizzaBuilder {
 
 		public function buildMasa(){ 
@@ -13,4 +16,3 @@
 			$this->pizza->setRelleno("pimienta+salchicha");
 		}
 	}
-?>

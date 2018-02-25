@@ -1,10 +1,12 @@
 <?php
 
+//include('AbstractBuilder.php');
+
 	class CocinaPizza {
 
 		var $pizzaBuilder;
 
-		public function setPizzaBuilder($pb){ 
+		public function setPizzaBuilder(PizzaBuilder  $pb){ 
 			$this->pizzaBuilder = $pb; 
 		}
 		
@@ -20,4 +22,3 @@
 		}
 	}
 		
-?>
