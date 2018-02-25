@@ -11,7 +11,13 @@
 		public function getPizza(){ 
 			return $this->pizzaBuilder->getPizza(); 
 		}
-
+	
+		public function PrepararPizza() {
+			$this->pizzaBuilder->crearNuevaPizza();
+			$this->pizzaBuilder->buildMasa();
+			$this->pizzaBuilder->buildSalsa();
+			$this->pizzaBuilder->buildRelleno();
+		}
 	}
-
+		
 ?>
