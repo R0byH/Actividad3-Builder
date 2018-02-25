@@ -21,3 +21,5 @@ class Pizza {
 		echo $this->masa." - ".$this->salsa." - ".$this->relleno."";
 	}
 }
+
+?>
