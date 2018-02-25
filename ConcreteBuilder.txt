@@ -23,7 +23,7 @@
 			$this->pizza->setSalsa("dulce"); 
 		}
 		public function buildRelleno(){ 
-			$this->pizza->setRelleno("jamÃ³n+piÃ±a"); 
+			$this->pizza->setRelleno("jamón+piña"); 
 		}
 	}	
 	
@@ -36,7 +36,7 @@
 			$this->pizza->setSalsa("dulce+picante"); 
 		}
 		public function buildRelleno(){ 
-			$this->pizza->setRelleno("jamÃ³n+hongos+tocino"); 
+			$this->pizza->setRelleno("jamón+hongos+tocino"); 
 		}
 	} 
 ?>
