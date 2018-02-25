@@ -19,6 +19,10 @@
 		public abstract function buildSalsa();
 	
 		public abstract function buildRelleno();
-
+		
+		public abstract function buildSize();
+		
+		public abstract function buildCost();
+	
 	}
 

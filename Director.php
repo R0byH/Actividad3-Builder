@@ -19,6 +19,8 @@
 			$this->pizzaBuilder->buildMasa();
 			$this->pizzaBuilder->buildSalsa();
 			$this->pizzaBuilder->buildRelleno();
+			$this->pizzaBuilder->buildSize();
+			$this->pizzaBuilder->buildCost();
 		}
 	}
 		
